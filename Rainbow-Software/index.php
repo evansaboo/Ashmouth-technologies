@@ -1,6 +1,3 @@
-<?php
-	include_once 'functions/contactFunction.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,13 +15,15 @@
 	
 	 <!-- Custom CSS -->
 	<link href="css/style.css" rel="stylesheet"/>
-
+	
+	<link href="css/cover.css" rel="stylesheet">
 
 	<script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
 
-  <body>
-    <!-- Navigation -->
+  
+  <body> 
+	<!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -67,60 +66,30 @@
         <!-- /.container -->
     </nav>
 	
-	<div class="container">
-		<h1 class="text-center h1">Contact Us</h1>
-		<hr class="featurette-divider">
-		<form class="form-horizontal" role="form" method="post" action="">
-			<div class="form-group">
-				<label for="name" class="col-sm-3 control-label">Name</label>
-				<div class="col-sm-6">
-					<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php if(!empty($_POST['name'])) echo htmlspecialchars($_POST['name']); ?>">
-					<?php echo "<p class='text-danger'>" .  $errName ."</p>";?>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="email" class="col-sm-3 control-label">Email</label>
-				<div class="col-sm-6">
-					<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php if(!empty($_POST['email'])) echo htmlspecialchars($_POST['email']); ?>">
-					<?php echo "<p class='text-danger'>$errEmail</p>";?>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="message" class="col-sm-3 control-label">Message</label>
-				<div class="col-sm-6">
-				
-					<textarea class="form-control" rows="5" name="message"><?php if(!empty($_POST['message'])) echo htmlspecialchars($_POST['message']);?></textarea>
-					<?php echo "<p class='text-danger'>$errMessage</p>";?>
-				</div>
-			</div>
-			<div class="col-sm-offset-3">
-					<div class="g-recaptcha" data-sitekey="6LfFCQcUAAAAAAjRJlWPlM0X94b35jGX7gr9dV1Z"></div>
-					<?php echo "<p class='text-danger'>$errHuman</p>";?>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-6 col-sm-offset-3">
-					<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-6 col-sm-offset-3">
-					<?php echo $result; ?>	
-				</div>
-			</div>
-		</form> 
-		
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-	</div>
+    <div class="site-wrapper">
 
+      <div class="site-wrapper-inner">
 
+        <div class="cover-container">
 
+          <div class="inner cover">
+            <h1 class="cover-heading">Cover your page.</h1>
+            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-default">Learn more</a>
+            </p>
+          </div>
 
+          <div class="mastfoot">
+            <div class="inner">
+              <p>&copy; 2016 Company, Inc.</p>
+            </div>
+          </div>
+        </div>
 
+      </div>
 
+    </div>	
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

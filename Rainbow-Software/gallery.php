@@ -1,29 +1,27 @@
-<?php
-	include_once 'functions/contactFunction.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above ll 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Contact Us</title>
+    <title>Work Team</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
 	
-	 <!-- Custom CSS -->
-	<link href="css/style.css" rel="stylesheet"/>
 
+</head>
 
-	<script src='https://www.google.com/recaptcha/api.js'></script>
-  </head>
+<body>
 
-  <body>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -66,60 +64,57 @@
         </div>
         <!-- /.container -->
     </nav>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="images/gallery1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="images/gallery2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
 	
 	<div class="container">
-		<h1 class="text-center h1">Contact Us</h1>
-		<hr class="featurette-divider">
-		<form class="form-horizontal" role="form" method="post" action="">
-			<div class="form-group">
-				<label for="name" class="col-sm-3 control-label">Name</label>
-				<div class="col-sm-6">
-					<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php if(!empty($_POST['name'])) echo htmlspecialchars($_POST['name']); ?>">
-					<?php echo "<p class='text-danger'>" .  $errName ."</p>";?>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="email" class="col-sm-3 control-label">Email</label>
-				<div class="col-sm-6">
-					<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php if(!empty($_POST['email'])) echo htmlspecialchars($_POST['email']); ?>">
-					<?php echo "<p class='text-danger'>$errEmail</p>";?>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="message" class="col-sm-3 control-label">Message</label>
-				<div class="col-sm-6">
-				
-					<textarea class="form-control" rows="5" name="message"><?php if(!empty($_POST['message'])) echo htmlspecialchars($_POST['message']);?></textarea>
-					<?php echo "<p class='text-danger'>$errMessage</p>";?>
-				</div>
-			</div>
-			<div class="col-sm-offset-3">
-					<div class="g-recaptcha" data-sitekey="6LfFCQcUAAAAAAjRJlWPlM0X94b35jGX7gr9dV1Z"></div>
-					<?php echo "<p class='text-danger'>$errHuman</p>";?>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-6 col-sm-offset-3">
-					<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-6 col-sm-offset-3">
-					<?php echo $result; ?>	
-				</div>
-			</div>
-		</form> 
-		
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
-	</div>
 
-
-
-
-
+    </div>
+    <!-- /.container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -127,6 +122,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
-   
-  </body>
+
+</body>
+
 </html>

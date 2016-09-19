@@ -1,6 +1,3 @@
-<?php
-	include_once 'functions/contactFunction.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -68,46 +65,51 @@
     </nav>
 	
 	<div class="container">
-		<h1 class="text-center h1">Contact Us</h1>
-		<hr class="featurette-divider">
-		<form class="form-horizontal" role="form" method="post" action="">
-			<div class="form-group">
-				<label for="name" class="col-sm-3 control-label">Name</label>
-				<div class="col-sm-6">
-					<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php if(!empty($_POST['name'])) echo htmlspecialchars($_POST['name']); ?>">
-					<?php echo "<p class='text-danger'>" .  $errName ."</p>";?>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="email" class="col-sm-3 control-label">Email</label>
-				<div class="col-sm-6">
-					<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php if(!empty($_POST['email'])) echo htmlspecialchars($_POST['email']); ?>">
-					<?php echo "<p class='text-danger'>$errEmail</p>";?>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="message" class="col-sm-3 control-label">Message</label>
-				<div class="col-sm-6">
-				
-					<textarea class="form-control" rows="5" name="message"><?php if(!empty($_POST['message'])) echo htmlspecialchars($_POST['message']);?></textarea>
-					<?php echo "<p class='text-danger'>$errMessage</p>";?>
-				</div>
-			</div>
-			<div class="col-sm-offset-3">
-					<div class="g-recaptcha" data-sitekey="6LfFCQcUAAAAAAjRJlWPlM0X94b35jGX7gr9dV1Z"></div>
-					<?php echo "<p class='text-danger'>$errHuman</p>";?>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-6 col-sm-offset-3">
-					<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-6 col-sm-offset-3">
-					<?php echo $result; ?>	
-				</div>
-			</div>
-		</form> 
+		<h1 class="text-center h1">Rainbow software</h1>
+    <div class="container marketing">
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/holder1.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="images/holder2.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/holder3.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
 		
       <!-- FOOTER -->
       <footer>
@@ -115,7 +117,7 @@
         <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 	</div>
-
+	</div>
 
 
 
