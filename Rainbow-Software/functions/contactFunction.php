@@ -1,22 +1,7 @@
 <?php
 	require_once 'libs/PHPMailer/PHPMailerAutoload.php';
 	
-	/*$m = new PHPMailer;
-	
-	$m->isSMTP();
-	$m->SMTPAuth = true;
-	
-	$m->Host='smtp.gmail.com';
-	$m->Username='rune11005@gmail.com';
-	$m->Password = '';
-	$m->SMTPSecure = 'ssl';
-	$m->Port = 465;
-	
-	$m->From = 'evan_95@hotmail.com';
-	$m->FromName = 'Evan Saboo';
-	$m->addReplyTo('evan_95@hotmail.com','Reply address');
-	$m->addAddress('evan_95@hotmail.com', 'hello');
-	
+/*
 	$m->Subject = 'Here is an email';
 	$m->Body = 'This is the body of a email!';
 	$m->AltBody = 'This is the body of a email!';
@@ -40,8 +25,8 @@
 		$m->SMTPAuth = true;
 		
 		$m->Host='smtp.gmail.com';
-		$m->Username='rune11005@gmail.com';
-		$m->Password = '';
+		$m->Username='rainbowsender0@gmail.com';
+		$m->Password = 'rainbow0';
 		$m->SMTPSecure = 'ssl';
 		$m->Port = 465;		
 			
