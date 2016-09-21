@@ -15,7 +15,7 @@
 	$result="";
 	if (isset($_POST["submit"])) {
 		$m = new PHPMailer;
-		
+		$sendTo = 'evan_95@hotmail.com';
 		$name = $_POST['name'];
 		$email = $_POST['email'];
 		$message = $_POST['message'];
@@ -34,7 +34,7 @@
 		$m->FromName = 'Rainbow contact';		
 		
 		$m->addReplyTo($email,'Reply address: ' . $email);
-		$m->addAddress('evan_95@hotmail.com', 'hello');
+		$m->addAddress($sendTo, 'hello');
 		
 		$m->Body ="From: $name\n E-Mail: $email\n Message:\n $message";
 		
@@ -57,10 +57,10 @@
 		if (!$_POST['message']) {
 			$errMessage = 'Please enter your message';
 		}
-		//Check if simple anti-bot test is correct
+		//Check if anti-bot test is correct
 		if ($response["success"] === false) {
 		// What happens when the CAPTCHA was entered incorrectly
-			$errHuman = "The reCAPTCHA wasn't entered correctly. Go back and try it again.";
+			$errHuman = "The reCAPTCHA wasn't entered correctly, please try again.";
 		}
 		
 		// If there are no errors, send the email
