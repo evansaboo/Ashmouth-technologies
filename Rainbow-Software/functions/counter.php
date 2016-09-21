@@ -16,6 +16,9 @@
             file_put_contents($count_file, ++$hit);
         }
     };
-    
-    count_views();
+	count_views();
+	
+	$myfile = fopen($count_file , "r") or die("Unable to open file!");
+	echo fread($myfile,filesize($count_file));
+	fclose($myfile);
 ?>
