@@ -15,11 +15,11 @@
 	$result="";
 	if (isset($_POST["submit"])) {
 		$m = new PHPMailer;
-		$sendTo = 'evan_95@hotmail.com';
+		
 		$name = $_POST['name'];
 		$email = $_POST['email'];
 		$message = $_POST['message'];
-		
+		$sendTo = 'evan_95@hotmail.com';
 		
 		$m->isSMTP();
 		$m->SMTPAuth = true;
