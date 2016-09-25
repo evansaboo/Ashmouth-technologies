@@ -58,6 +58,7 @@
                         <a href="contact.php">Contact</a>
                     </li>
                 </ul>
+                
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -75,11 +76,11 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Lorem ipsum dolor . <span class="text-muted">Maecenas non sem vita!.</span></h2>
+          <p class="lead">Aliquam mi est, laoreet ut ultricies a, aliquam et felis. Proin blandit risus et rhoncus pellentesque. Suspendisse sed mollis tellus. Integer quis tellus porta, porttitor odio sit amet, varius velit. Vivamus cursus mauris non libero dignissim interdum. Maecenas non lectus justo.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="images/holder1.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="images/Company.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -87,11 +88,11 @@
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">dignissim sapien fringilla. <span class="text-muted">Cras gravida est.</span></h2>
+          <p class="lead">Aenean viverra nunc condimentum, faucibus erat in, blandit felis. Nam a fringilla metus. Nam tempus placerat sem vitae luctus. Etiam eu risus quis mi dictum varius et vehicula urna. Phasellus condimentum, nisi ac venenatis tempus, leo odio facilisis urna, in pharetra augue ex vel ante. Quisque porttitor vitae dolor at placerat.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="images/holder2.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="images/ja.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -99,11 +100,11 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Maecenas luctus. <span class="text-muted">Fusce.</span></h2>
+          <p class="lead">DFusce id mollis nisl, et elementum leo. Proin a lacinia odio. Mauris non massa in turpis lacinia vulputate efficitur quis ex. Phasellus placerat ullamcorper lacus, vitae ultrices erat finibus eget. Praesent viverra sagittis libero at rutrum. Quisque mi ante, rhoncus vel congue non, pulvinar sed nunc.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="images/holder3.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="images/finish.jpg" alt="Generic placeholder image">
         </div>
       </div>
 

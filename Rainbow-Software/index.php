@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above ll 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
+    <meta name="description" content="hej hej jag är en liten apa!">
     <meta name="author" content="">
 
     <title>Contact Us</title>
@@ -14,9 +14,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
 	
 	 <!-- Custom CSS -->
-	<link href="css/style.css" rel="stylesheet"/>
+	<link href="css/dimas.css" rel="stylesheet"/>
 	
 	<link href="css/cover.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
 
 	<script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
@@ -24,7 +27,7 @@
   
   <body> 
 	<!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -37,6 +40,7 @@
                 <a class="navbar-brand" href="#">Start Bootstrap</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
+            <nav class="navbar navbar-inverse">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
@@ -60,6 +64,12 @@
                         <a href="contact.php">Contact</a>
                     </li>
                 </ul>
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://www.facebook.com"><i class="fa fa-facebook-square" style="font-size:36px"></i></a></li>
+                <li><a href="http://www.instagram.com"><i class="fa fa-instagram" style="font-size:36px"></i></i></a></li>
+                
+
+                </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -73,8 +83,8 @@
         <div class="cover-container">
 
           <div class="inner cover">
-            <h1 class="cover-heading">Cover your page.</h1>
-            <p class="lead">hejjjjjjjjjjjjjja one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            <h1 class="cover-heading">Rainbow Software</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan vestibulum justo, eget lobortis massa gravida mollis. Aenean placerat odio in orci luctus dictum. Donec quis dictum arcu. Vestibulum et est vitae purus scelerisque rutrum.</p>
             <p class="lead">
               <a class="btn btn-lg btn-default"><?php include_once 'functions/counter.php' ?> Visitors </a>
             </p>
