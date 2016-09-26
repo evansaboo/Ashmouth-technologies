@@ -15,6 +15,7 @@
 
 	 <!-- Custom CSS -->
 	<link href="css/dimas.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
 
 	<link href="css/cover.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
@@ -81,7 +82,7 @@
             <h1 class="cover-heading">Rainbow Software</h1>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan vestibulum justo, eget lobortis massa gravida mollis. Aenean placerat odio in orci luctus dictum. Donec quis dictum arcu. Vestibulum et est vitae purus scelerisque rutrum.</p>
             <p class="lead">
-              <a class="btn btn-lg btn-default"><?php include_once 'functions/counter.php' ?> Visitors </a>
+              <div id="visitors"><?php include_once 'functions/counter.php' ?> Visitors </div>
             </p>
           </div>
 

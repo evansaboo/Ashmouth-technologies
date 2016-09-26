@@ -1,7 +1,7 @@
 body {
 
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    
+
 }
 .image{
 
@@ -19,4 +19,15 @@ h1{
 }
 #myCarousel{
     margin-top: -19px;
+}
+#visitors {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: auto;
+    width: 100px;
+    padding: 10px;
+    border: 1px gray solid;
+
 }
