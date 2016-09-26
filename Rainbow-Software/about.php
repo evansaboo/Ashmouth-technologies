@@ -80,7 +80,7 @@
           <p class="lead">Aliquam mi est, laoreet ut ultricies a, aliquam et felis. Proin blandit risus et rhoncus pellentesque. Suspendisse sed mollis tellus. Integer quis tellus porta, porttitor odio sit amet, varius velit. Vivamus cursus mauris non libero dignissim interdum. Maecenas non lectus justo.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block image" src="images/Company.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block image" src="images/company.jpg" alt="Generic placeholder image">
         </div>
       </div>
 

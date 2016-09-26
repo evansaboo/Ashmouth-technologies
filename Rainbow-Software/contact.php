@@ -94,7 +94,7 @@
 				</div>
 			</div>
 			<div class="col-sm-offset-3">
-					<div class="g-recaptcha" data-sitekey="6LfFCQcUAAAAAAjRJlWPlM0X94b35jGX7gr9dV1Z"></div>
+					<div class="g-recaptcha" data-sitekey="6LfHmwcUAAAAADide2Fgz3MB9W4g5JXEAd-FT_Pt"></div>
 					<?php echo "<p class='text-danger'>$errHuman</p>";?>
 			</div>
 			<div class="form-group">

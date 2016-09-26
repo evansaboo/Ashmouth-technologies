@@ -38,7 +38,7 @@
 		
 		$m->Body ="From: $name\n E-Mail: $email\n Message:\n $message";
 		
-		$key = "6LfFCQcUAAAAAMR2XZ5LE8iA8Isszh_HN62tl4O3";
+		$key = "6LfHmwcUAAAAAFI4FB6gIykyh9Q6Il3KzTxo3Bf0";
         $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$key."&response=".$_POST['g-recaptcha-response']);
         $response = json_decode($response, true);	
 		
