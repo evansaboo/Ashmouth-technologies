@@ -12,7 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
-	
+
 	 <!-- Custom CSS -->
 	<link href="css/about.css" rel="stylesheet"/>
 
@@ -32,7 +32,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -64,7 +63,7 @@
         </div>
         <!-- /.container -->
     </nav>
-	
+
 	<div class="container">
 		<h1 class="text-center h1">Rainbow software</h1>
     <div class="container marketing">
@@ -111,7 +110,7 @@
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
-		
+
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
@@ -130,6 +129,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
-   
+
   </body>
 </html>
