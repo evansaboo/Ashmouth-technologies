@@ -15,7 +15,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
-	
+
 	 <!-- Custom CSS -->
 	<link href="css/style.css" rel="stylesheet"/>
 
@@ -35,13 +35,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+				<a class="navbar-brand" href="index.php">Rainbow Software</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
+                    <!-- <li>
                         <a href="index.php">Home</a>
-                    </li>
+                    </li> -->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -65,7 +66,7 @@
         </div>
         <!-- /.container -->
     </nav>
-	
+
 	<div class="container">
 		<h1 class="text-center h1">Contact Us</h1>
 		<hr class="featurette-divider">
@@ -87,7 +88,7 @@
 			<div class="form-group">
 				<label for="message" class="col-sm-3 control-label">Message</label>
 				<div class="col-sm-6">
-				
+
 					<textarea class="form-control" rows="5" name="message"><?php if(!empty($_POST['message'])) echo htmlspecialchars($_POST['message']);?></textarea>
 					<?php echo "<p class='text-danger'>$errMessage</p>";?>
 				</div>
@@ -103,11 +104,11 @@
 			</div>
 			<div class="form-group">
 				<div class="col-sm-6 col-sm-offset-3">
-					<?php echo $result; ?>	
+					<?php echo $result; ?>
 				</div>
 			</div>
-		</form> 
-		
+		</form>
+
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
@@ -126,6 +127,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
-   
+
   </body>
 </html>

@@ -12,10 +12,10 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
-	
+
 	 <!-- Custom CSS -->
 	<link href="css/dimas.css" rel="stylesheet"/>
-	
+
 	<link href="css/cover.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -24,8 +24,8 @@
 	<script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
 
-  
-  <body> 
+
+  <body>
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -38,13 +38,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Rainbow Software</a>
+              <a class="navbar-brand" href="index.php">Rainbow Software</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                    <li>
+                    <!-- <li>
                         <a href="index.php">Home</a>
-                    </li>
+                    </li> -->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -62,7 +62,7 @@
                     <li>
                         <a href="contact.php">Contact</a>
                     </li>
-                    
+
                 </ul>
             </div>
           </div>
@@ -70,7 +70,7 @@
 
       </div>
     </div>
-	
+
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
@@ -94,13 +94,13 @@
 
       </div>
 
-    </div>	
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
-   
+
   </body>
 </html>
