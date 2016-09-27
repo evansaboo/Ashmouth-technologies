@@ -81,6 +81,20 @@
                 <h2 class="page-header">Our Team</h2>
             </div>
             <div class="col-lg-12 col-sm-6 text-center">
+<<<<<<< HEAD
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <h3>Jenny Karlsson
+                    <small>CEO</small>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et tellus vulputate!</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <h3>Milad Barai
+                    <small>Project Manager</small>
+                </h3>
+                <p> Praesent porttitor aliquet tellus non tincidunt. Nam vel cursus dolor.</p>
+=======
                 <img class="img-circle img-responsive img-center" src="https://www.kth.se/social/files/5983/bengtkoren_200.jpg" alt="">
                 <h3>Bengt Koren
                     <small>Teacher, Life Coach</small>
@@ -93,41 +107,43 @@
                     <small>Advanced Database Teacher</small>
                 </h3>
                 <p>Tip-top KTH teacher in databasemetodik.</p>
+>>>>>>> origin/master
             </div>
             <div class="col-lg-4 col-sm-6 text-center">
                 <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-                <h3>John Smith
-                    <small>Job Title</small>
+                <h3>David Nartey
+                    <small>Business Manager</small>
                 </h3>
-                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+                <p>Suspendisse scelerisque justo ut nibh feugiat, sed lobortis lorem scelerisque.</p>
             </div>
             <div class="col-lg-4 col-sm-6 text-center">
                 <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-                <h3>John Smith
-                    <small>Job Title</small>
+                <h3>Jani Bonnevier
+
+                    <small>Configuration Manager</small>
                 </h3>
-                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+                <p>Etiam blandit tortor in elit tempus sollicitudin. Ut blandit elit in sem cursus dapibus.</p>
             </div>
             <div class="col-lg-4 col-sm-6 text-center">
                 <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-                <h3>John Smith
-                    <small>Job Title</small>
+                <h3>Staffan Kullman
+                    <small>Measurment Manager</small>
                 </h3>
-                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+                <p>Suspendisse auctor volutpat arcu, nec mollis metus. Etiam bibendum metus sed ex sagittis, et vulputate urna commodo.</p>
             </div>
             <div class="col-lg-4 col-sm-6 text-center">
                 <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-                <h3>John Smith
-                    <small>Job Title</small>
+                <h3>Kevin Lane
+                    <small>Quality Manager</small>
                 </h3>
-                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+                <p>Nam nisl metus, mollis in orci in, consectetur luctus arcu. Vivamus nisl felis, feugiat aliquam finibus a, rutrum at felis. Nam sit amet placerat nisi, in finibus nisi.</p>
             </div>
             <div class="col-lg-4 col-sm-6 text-center">
                 <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-                <h3>John Smith
-                    <small>Job Title</small>
+                <h3>Arvin Behshad
+                    <small>Designer Manager</small>
                 </h3>
-                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+                <p>Etiam et malesuada est. Aenean ac dictum felis, ut tincidunt turpis. Vestibulum quis sem urna. Nunc id commodo mauris, vitae pharetra orci.</p>
             </div>
         </div>
 
