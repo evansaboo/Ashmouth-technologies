@@ -1,5 +1,5 @@
 <?php
-	include_once 'functions/contactFunction.php';
+	include 'functions/contactFunction.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -71,14 +71,14 @@
 			<div class="form-group">
 				<label for="name" class="col-sm-3 control-label">Name</label>
 				<div class="col-sm-6">
-					<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php if(!empty($_POST['name'])) echo htmlspecialchars($_POST['name']); ?>">
+					<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php if(!empty($_POST['name']) && $confirm == false) echo htmlspecialchars($_POST['name']); ?>">
 					<?php echo "<p class='text-danger'>" .  $errName ."</p>";?>
 				</div>
 			</div>
 			<div class="form-group">
 				<label for="email" class="col-sm-3 control-label">Email</label>
 				<div class="col-sm-6">
-					<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php if(!empty($_POST['email'])) echo htmlspecialchars($_POST['email']); ?>">
+					<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php if(!empty($_POST['email']) && $confirm == false) echo htmlspecialchars($_POST['email']); ?>">
 					<?php echo "<p class='text-danger'>$errEmail</p>";?>
 				</div>
 			</div>
@@ -86,7 +86,7 @@
 				<label for="message" class="col-sm-3 control-label">Message</label>
 				<div class="col-sm-6">
 
-					<textarea class="form-control" rows="5" name="message"><?php if(!empty($_POST['message'])) echo htmlspecialchars($_POST['message']);?></textarea>
+					<textarea class="form-control" rows="5" name="message"><?php if(!empty($_POST['message']) && $confirm == false) echo htmlspecialchars($_POST['message']);?></textarea>
 					<?php echo "<p class='text-danger'>$errMessage</p>";?>
 				</div>
 			</div>

@@ -19,7 +19,7 @@
 		$name = $_POST['name'];
 		$email = $_POST['email'];
 		$message = $_POST['message'];
-		$sendTo = $emil;
+		$sendTo = 'rainbowsender0@gmail.com';
 		
 		$m->isSMTP();
 		$m->SMTPAuth = true;
@@ -62,10 +62,11 @@
 		// What happens when the CAPTCHA was entered incorrectly
 			$errHuman = "The reCAPTCHA wasn't entered correctly, please try again.";
 		}
-		
+		$confirm = false;
 		// If there are no errors, send the email
 		if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 			if ($m->send()) {
+				$confirm = true;
 				$result='<div class="alert alert-success">Thank You! We will be in touch.</div>';
 			} else {
 				$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later.</div>';
