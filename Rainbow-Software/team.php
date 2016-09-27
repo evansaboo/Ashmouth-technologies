@@ -12,7 +12,7 @@
     <title>Work Team</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
@@ -81,14 +81,14 @@
                 <h2 class="page-header">Our Team</h2>
             </div>
             <div class="col-lg-12 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <img class="img-circle img-responsive img-center" src="images/pers1.jpg" alt="">
                 <h3>Jenny Karlsson
                     <small>CEO</small>
                 </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et tellus vulputate!</p>
             </div>
             <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <img class="img-circle img-responsive img-center" src="images/pers2.jpg" alt="">
                 <h3>Milad Barai
                     <small>Project Manager</small>
                 </h3>
@@ -96,14 +96,14 @@
             </div>
             
             <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <img class="img-circle img-responsive img-center" src="images/pers3.jpg" alt="">
                 <h3>David Nartey
                     <small>Business Manager</small>
                 </h3>
                 <p>Suspendisse scelerisque justo ut nibh feugiat, sed lobortis lorem scelerisque.</p>
             </div>
             <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <img class="img-circle img-responsive img-center" src="images/pers4.jpg" alt="">
                 <h3>Jani Bonnevier
 
                     <small>Configuration Manager</small>
@@ -111,21 +111,21 @@
                 <p>Etiam blandit tortor in elit tempus sollicitudin. Ut blandit elit in sem cursus dapibus.</p>
             </div>
             <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <img class="img-circle img-responsive img-center" src="images/pers5.jpg" alt="">
                 <h3>Staffan Kullman
                     <small>Measurment Manager</small>
                 </h3>
                 <p>Suspendisse auctor volutpat arcu, nec mollis metus. Etiam bibendum metus sed ex sagittis, et vulputate urna commodo.</p>
             </div>
             <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <img class="img-circle img-responsive img-center" src="images/pers7.jpg" alt="">
                 <h3>Kevin Lane
                     <small>Quality Manager</small>
                 </h3>
                 <p>Nam nisl metus, mollis in orci in, consectetur luctus arcu. Vivamus nisl felis, feugiat aliquam finibus a, rutrum at felis. Nam sit amet placerat nisi, in finibus nisi.</p>
             </div>
             <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <img class="img-circle img-responsive img-center" src="images/pers6.jpg" alt="">
                 <h3>Arvin Behshad
                     <small>Designer Manager</small>
                 </h3>
