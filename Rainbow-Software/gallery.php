@@ -12,7 +12,7 @@
     <title>Gallery</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
@@ -74,14 +74,14 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="images/gallery1.jpg" alt="First slide">
+          <img class="first-slide bild" src="images/gallery1.jpg" alt="First slide">
         </div>
         <div class="item">
-          <img class="second-slide" src="images/gallery2.jpg" alt="Second slide">
+          <img class="second-slide bild" src="images/gallery2.jpg" alt="Second slide">
         </div>
 
 	<div class="item">
-          <img class="third-slide" src="images/gallery3.jpg" alt="Second slide">
+          <img class="third-slide bild" src="images/gallery3.jpg" alt="Second slide">
         </div>
 
       </div>
