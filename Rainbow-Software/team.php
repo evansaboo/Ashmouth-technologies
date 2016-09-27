@@ -81,7 +81,6 @@
                 <h2 class="page-header">Our Team</h2>
             </div>
             <div class="col-lg-12 col-sm-6 text-center">
-<<<<<<< HEAD
                 <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
                 <h3>Jenny Karlsson
                     <small>CEO</small>
@@ -94,21 +93,8 @@
                     <small>Project Manager</small>
                 </h3>
                 <p> Praesent porttitor aliquet tellus non tincidunt. Nam vel cursus dolor.</p>
-=======
-                <img class="img-circle img-responsive img-center" src="https://www.kth.se/social/files/5983/bengtkoren_200.jpg" alt="">
-                <h3>Bengt Koren
-                    <small>Teacher, Life Coach</small>
-                </h3>
-                <p>Teaches high level programvaruteknik and coaches several CEO's through life.</p>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="https://www.kth.se/social/files/4fec2f90f276546574000012/about_nikos_200.jpg" alt="">
-                <h3>Nikos Dimitrakas
-                    <small>Advanced Database Teacher</small>
-                </h3>
-                <p>Tip-top KTH teacher in databasemetodik.</p>
->>>>>>> origin/master
-            </div>
+            
             <div class="col-lg-4 col-sm-6 text-center">
                 <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
                 <h3>David Nartey
