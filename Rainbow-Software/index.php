@@ -80,7 +80,11 @@
 
           <div class="inner cover">
             <h1 class="cover-heading">Rainbow Software</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan vestibulum justo, eget lobortis massa gravida mollis. Aenean placerat odio in orci luctus dictum. Donec quis dictum arcu. Vestibulum et est vitae purus scelerisque rutrum.</p>
+            <p class="lead">"Ba-a, ba-a, black sheep, have you any wool?
+				Yes, sir! yes, sir! three bags full:
+				One for my master, one for my dame,
+				And one for the little boy that lives in our lane." - William Shakespear.
+				Welcome to our reality.</p>
             <p class="lead">
               <div id="visitors"><?php include_once 'functions/counter.php' ?> Visitors </div>
             </p>
