@@ -38,31 +38,29 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				
               </button>
-              <a class="navbar-brand" href="index.php">Rainbow Software</a>
+              <a class="navbar-brand" href="index.php" >Rainbow Software</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                     <!-- <li>
                         <a href="index.php">Home</a>
                     </li> -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="about.php">About Us</a>
-                            </li>
-                            <li>
-                                <a href="team.php">Work Team</a>
-                            </li>
-                            <li>
-                                <a href="gallery.php">Gallery</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
+					
+					<li>
                         <a href="contact.php">Contact</a>
                     </li>
+					<li>
+						<a href="team.php">Work Team</a>
+					</li>
+					<li>
+						<a href="gallery.php">Gallery</a>
+					</li>
+					<li>
+						<a href="about.php">About Us</a>
+					</li>
 
                 </ul>
             </div>

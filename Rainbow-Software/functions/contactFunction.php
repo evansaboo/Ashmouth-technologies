@@ -19,7 +19,7 @@
 		$name = $_POST['name'];
 		$email = $_POST['email'];
 		$message = $_POST['message'];
-		$sendTo = 'evan_95@hotmail.com';
+		$sendTo = $emil;
 		
 		$m->isSMTP();
 		$m->SMTPAuth = true;
@@ -31,10 +31,10 @@
 		$m->Port = 465;		
 			
 		$m->From = $email;
-		$m->FromName = 'Rainbow contact';		
+		$m->FromName = 'Rainbow contact form';		
 		
 		$m->addReplyTo($email,'Reply address: ' . $email);
-		$m->addAddress($sendTo, 'hello');
+		$m->addAddress($sendTo, $name);
 		
 		$m->Body ="From: $name\n E-Mail: $email\n Message:\n $message";
 		
