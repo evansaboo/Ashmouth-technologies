@@ -46,16 +46,22 @@
 		// Check if name has been entered
 		if (!$_POST['name']) {
 			$errName = 'Please enter your name';
+		} else if(strlen($_POST['name']) > 60) {
+			$errName = "You can't enter more than 60 characters!";
 		}
 		
 		// Check if email has been entered and is valid
 		if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
 			$errEmail = 'Please enter a valid email address';
+		} else if(strlen($_POST['email']) > 60) {
+			$errEmail = "You can't enter more than 60 characters!";
 		}
 		
 		//Check if message has been entered
 		if (!$_POST['message']) {
 			$errMessage = 'Please enter your message';
+		} else if(strlen($_POST['message']) > 500) {
+			$errMessage = "You can't enter more than 500 characters!";
 		}
 		//Check if anti-bot test is correct
 		if ($response["success"] === false) {

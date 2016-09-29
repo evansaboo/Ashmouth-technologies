@@ -69,6 +69,11 @@
 		<hr class="featurette-divider">
 		<form class="form-horizontal" role="form" method="post" action="">
 			<div class="form-group">
+				<div class="col-sm-6 col-sm-offset-3">
+					<?php echo $result; ?>
+				</div>
+			</div>
+			<div class="form-group">
 				<label for="name" class="col-sm-3 control-label">Name</label>
 				<div class="col-sm-6">
 					<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php if(!empty($_POST['name']) && $confirm == false) echo htmlspecialchars($_POST['name']); ?>">
@@ -97,11 +102,6 @@
 			<div class="form-group">
 				<div class="col-sm-6 col-sm-offset-3">
 					<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-6 col-sm-offset-3">
-					<?php echo $result; ?>
 				</div>
 			</div>
 		</form>

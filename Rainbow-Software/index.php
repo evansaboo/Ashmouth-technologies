@@ -17,7 +17,7 @@
 	<link href="css/dimas.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
 
-	<link href="css/cover.css" rel="stylesheet">
+	<link href="css/cover.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
@@ -35,11 +35,9 @@
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="index.php" >Rainbow Software</a>
             </div>
@@ -87,8 +85,12 @@
               <div id="visitors"><?php include_once 'functions/counter.php' ?> Visitors </div>
             </p>
           </div>
-
-          
+			<div class="mastfoot">
+				<div class="inner">
+				  <p>&copy; 2016 Company, Inc.</p>
+				</div>
+			  </div>
+			
         </div>
 
       </div>
@@ -100,13 +102,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
-  <footer>
-  <div class="mastfoot">
-            <div class="inner">
-              <p>&copy; 2016 Company, Inc.</p>
-            </div>
-          </div>
-          </footer>
+
   </body>
 
 </html>

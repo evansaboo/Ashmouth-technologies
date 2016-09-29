@@ -122,8 +122,8 @@ body .site-wrapper{
  */
 
 .mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
+
+  color: rgba(42,39,39, 0.5);
 }
 
 
@@ -138,8 +138,7 @@ body .site-wrapper{
     top: 0;
   }
   .mastfoot {
-    position: fixed;
-    bottom: 0;
+   
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
