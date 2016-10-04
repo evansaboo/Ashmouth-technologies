@@ -1,4 +1,5 @@
 <?php
+	//Inlcues all PHPMailer functions to be able to send mails. 
 	require_once 'libs/PHPMailer/PHPMailerAutoload.php';
 	
 /*
@@ -8,11 +9,24 @@
 	
 	var_dump($m->send());	*/
 	
+	//Vairables related to error messages.
 	$errName="";
 	$errEmail ="";
 	$errMessage ="";
 	$errHuman ="";
 	$result="";
+	
+	/*
+	Checks first if submit button in contact form is clicked.
+	*If the statement is true then the code will:
+	*Create a new PHPMailer object and call every required variable to be configured
+	to be able to send a mail.
+	*Check if every field in the contact form is filled and the input is
+	not exceeding the specified character limit.
+	*Send a request to the reCAPTCHA function with specified key and get a boolean response.
+	*If there are no error messages and the reCaPTCHA function was handled correctly, 
+	the PHPMailer function will send a mail to the specified email with the given credentials.
+	*/
 	if (isset($_POST["submit"])) {
 		$m = new PHPMailer;
 		
